@@ -375,14 +375,14 @@ export default function VillagePreview() {
             </div>
           </div>
 
-          {/* Explanation on KMP Sound Player - Custom courier outline container */}
+          {/* Explanation on Web Audio Synthesizer - Custom courier outline container */}
           <div className="mt-6 bg-[#1a1a1a]/60 border-4 border-zinc-800 p-4 text-zinc-400 text-xs leading-relaxed font-courier">
             <span className="font-bold text-white uppercase tracking-wider flex items-center gap-2 mb-1.5 text-[11px]">
               <HelpCircle className="w-3.5 h-3.5 text-white" />
-              How Audio works in KMP:
+              How the Web Synthesizer works:
             </span>
             <span>
-              The common code defines an <code className="text-white font-bold font-mono">expect class SoundPlayer</code> interface, while Android loads with <code className="text-emerald-400 font-mono">SoundPool</code>, iOS uses native Swift <code className="text-cyan-400 font-mono">AVAudioPlayer</code>, and Desktop plays standard sound streams. This delivers ultra-low audio latency across platforms!
+              This simulator synthesizes the villager's iconic <code className="text-white font-bold font-mono">"Hmm"</code> sound completely in real-time. It layers sawtooth, triangle, and sine wave oscillators, routes them through parallel bandpass filters to mimic human throat formants, and dynamically sweeps the pitch with ADSR envelopes!
             </span>
           </div>
         </div>
