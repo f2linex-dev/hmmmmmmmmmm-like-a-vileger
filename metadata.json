@@ -1,0 +1,6 @@
+{
+  "name": "Villager Hmm",
+  "description": "An interactive Kotlin Multiplatform (KMP) and Compose Multiplatform sandbox featuring a synthesized 3D blocky Minecraft Villager Nose button, real-time voice presets, day/night village themes, and an expandable codebase exporter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
